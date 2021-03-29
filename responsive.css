@@ -1,0 +1,66 @@
+@media (max-width: 1000px) {
+  /* Tambahkan CSS untuk lesson */
+  .course-container{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1{
+   font-size: 48px;
+   text-align: center;
+  }
+
+  .top-wrapper p{
+   font-size: 32px;
+   text-align: center;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 670px) {
+  .courses-container{
+    width: 100%;
+  }
+
+  .course{
+    width: 75%;
+  }
+
+  footer{
+    text-align: center;
+  }
+  .btn{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Tambahkan CSS untuk top-wrapper */
+  .top-wrapper{
+    text-align: left;
+    padding-top: 130px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* Tambahkan CSS untuk tag <p> didalam top-wrapper */
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right{
+    display: none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon{
+    display: block;
+  }
+}
